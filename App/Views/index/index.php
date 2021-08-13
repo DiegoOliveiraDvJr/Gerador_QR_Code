@@ -39,7 +39,7 @@
                                 }
                                 
                             }*/
-                            if($_POST['utm_source'] != '' || $_POST['utm_medium'] != '' || $_POST['utm_campaign'] != '' ||  $_POST['utm_content'] != ''  ||  $_POST['utm_term'] != ''){
+                            if($_POST['utm_source'] != '' || $_POST['utm_medium'] != '' || $_POST['utm_campaign'] != '' ||  $_POST['utm_content'] != ''  ||  $_POST['utm_term'] != '' ||  $_POST['utm_id'] != ''){
                                 $url.='?';   
                             }
     
